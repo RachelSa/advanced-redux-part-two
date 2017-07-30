@@ -1,4 +1,4 @@
-# advanced-redux-part-two
+# Advanced Redux Club part II
 
 ## Redux's withRouter()
 - withRouter is a higher order component that can be wrap a React component in order to get match, location, and history props.
