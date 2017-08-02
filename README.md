@@ -1,6 +1,18 @@
 # Advanced Redux Club part II
 
-# Monday
+## Schedule
+Day 3
+Data Normalization
+Day 4
+
+Selectors
+
+Day 5
+
+Higher Order Components
+# Monday 
+
+## Student Presentation: Data Normalization
 
 ## withRouter()
 - withRouter is a higher order component that can be wrap a React component in order to get match, location, and history props.
@@ -13,8 +25,36 @@
 
 # Tuesday
 
+## Student Presentation: Selectors 
+
 ## Redux DevTools
-- <a href="https://egghead.io/lessons/javascript-getting-started-with-redux-dev-tools">Egghead video</a>
--
+<a href="https://egghead.io/lessons/javascript-getting-started-with-redux-dev-tools">Egghead video</a>
+
+# Wednesday
+ 
+## Student Presentation: 
+
+## Immutable JS
+- used to create 'record' instances
+- self documenting
+- enforce consistency
+
+```
+const { Record } = require('immutable')
+const Snack = Record({ name:"", flavor:"", price:0, review :""})
+const cheetos = new Snack({ name: "Cheetos" })
+Snack.get("name") 
+// "Cheetos"
+
+const twizzlers = new Snack({ name: "Twizzlers", pullNPeel: true })
+twizzlers.get('pullNPeel')
+// undefined
+```
+## resources
+- <a href="https://facebook.github.io/immutable-js/docs/#/Record">React Immutable JS</a>
+- <a href="https://tonyhb.gitbooks.io/redux-without-profanity/content/using_immutablejs_records.html">Using Immutable JS Records</a>
+
+
+
 
 
