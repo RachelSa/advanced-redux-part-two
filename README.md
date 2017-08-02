@@ -25,6 +25,7 @@
 ## Student Presentation: 
 
 ## Immutable JS
+"Because Redux doesn’t allow us to mutate the application state, it can be helpful to enforce this by modeling application state with immutable data structures." -- Dan Prince, <a href="https://www.sitepoint.com/how-to-build-a-todo-app-using-react-redux-and-immutable-js/">How to Build a Todo App Using React, Redux, and Immutable JS</a>
 - used to create 'record' instances
 - self documenting
 - enforce consistency
