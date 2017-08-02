@@ -1,15 +1,5 @@
 # Advanced Redux Club part II
 
-## Schedule
-Day 3
-Data Normalization
-Day 4
-
-Selectors
-
-Day 5
-
-Higher Order Components
 # Monday 
 
 ## Student Presentation: Data Normalization
